@@ -13,11 +13,18 @@ public class Main {
 
 
         System.out.println("|Задание №2|");
-
-
-    public static void operationSystemAndYear (){
-        int currentYear = LocalDate.now().getYear();
+        public static void operationSystemAndYear (){
+            int currentYear = LocalDate.now().getYear();
         }
+        int clientOS = 1;
+        if (clientOS == 0){
+            int clienDeviceYear = 2020;
+            if (clientOS==0) {
+                if (clienDeviceYear<2015) {
+                    System.out.println("Установите облегченную версию приложения для iOS по ссылке");{
+                else {
+                            System.out.println("Установите версию приложения для iOS по ссылке"); }
+
 
 
         System.out.println("|Задание №3|");
